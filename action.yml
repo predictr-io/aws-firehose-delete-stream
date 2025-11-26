@@ -1,0 +1,21 @@
+name: 'AWS Firehose Delete Stream'
+description: 'Delete AWS Kinesis Data Firehose delivery streams - DESTRUCTIVE ACTION'
+author: 'predictr-io'
+
+branding:
+  icon: 'trash-2'
+  color: 'red'
+
+inputs:
+  # Required parameters
+  stream-name:
+    description: 'Firehose delivery stream name to delete'
+    required: true
+
+outputs:
+  deleted:
+    description: 'Whether the stream was successfully deleted ("true" or "false")'
+
+runs:
+  using: 'node20'
+  main: 'dist/index.js'
