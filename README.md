@@ -181,25 +181,10 @@ The action handles common scenarios:
 - Review AWS permissions for delete operations
 - Consider exporting stream metrics/logs first
 
-## Development
-
-### Setup
-
-```bash
-git clone https://github.com/predictr-io/aws-firehose-delete-stream.git
-cd aws-firehose-delete-stream
-npm install
-```
-
-### Scripts
-
-```bash
-npm run build      # Build the action
-npm run type-check # TypeScript checking
-npm run lint       # ESLint
-npm run check      # Run all checks
-```
-
 ## License
 
 MIT
+
+## Contributing
+
+Contributions welcome! Please submit a Pull Request.
